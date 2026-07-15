@@ -4,27 +4,35 @@ Practicing Data Structures & Algorithms by solving problems from [Striver's A2Z 
 
 ## 📌 Progress Tracker
 
-| Topic            | Status         | Folder |
-|-------------------|---------------|--------|
-| Basic Recursion   | 🟡 In Progress | [`basic_recursion/`](./basic_recursion) |
-| Arrays            | ⬜ Not Started | `arrays/` |
-| Strings           | ⬜ Not Started | `strings/` |
-| Linked List       | ⬜ Not Started | `linked_list/` |
-| Stacks & Queues   | ⬜ Not Started | `stacks_queues/` |
-| Binary Search     | ⬜ Not Started | `binary_search/` |
-| Sorting           | ⬜ Not Started | `sorting/` |
-| Trees             | ⬜ Not Started | `trees/` |
-| Graphs            | ⬜ Not Started | `graphs/` |
-| Dynamic Programming | ⬜ Not Started | `dynamic_programming/` |
+| Topic              | Status         | Problems Solved | Folder |
+|---------------------|---------------|:---:|--------|
+| Basic Recursion     | 🟡 In Progress | 1 | [`basic_recursion/`](./basic_recursion) |
+| Arrays              | ⬜ Not Started | 0 | `arrays/` |
+| Strings             | ⬜ Not Started | 0 | `strings/` |
+| Linked List         | ⬜ Not Started | 0 | `linked_list/` |
+| Stacks & Queues     | ⬜ Not Started | 0 | `stacks_queues/` |
+| Binary Search       | ⬜ Not Started | 0 | `binary_search/` |
+| Sorting             | ⬜ Not Started | 0 | `sorting/` |
+| Trees               | ⬜ Not Started | 0 | `trees/` |
+| Graphs              | ⬜ Not Started | 0 | `graphs/` |
+| Dynamic Programming | ⬜ Not Started | 0 | `dynamic_programming/` |
 
-*(Update the status column as you go: ⬜ Not Started → 🟡 In Progress → ✅ Done)*
+*(Update status as you go: ⬜ Not Started → 🟡 In Progress → ✅ Done)*
+
+## ✅ Problems Solved
+
+| # | Problem | Topic | File |
+|---|---------|-------|------|
+| 1 | Print name N times | Basic Recursion | [`print_name_n_times.py`](./basic_recursion/print_name_n_times.py) |
+
+*(Add a new row here every time you solve a problem — keeps the log easy to scan.)*
 
 ## 📂 Structure
 
 Each topic has its own folder. Every solved problem is its own file, named after the problem, with a short header comment describing the problem and its source.
 
 ```
-dsa-practice/
+dsaPY/
 ├── basic_recursion/
 │   └── print_name_n_times.py
 ├── arrays/
