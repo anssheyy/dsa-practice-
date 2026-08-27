@@ -1,65 +1,42 @@
-# DSA Practice — Striver's A2Z Sheet
+# LeetCode Solutions
 
-Practicing Data Structures & Algorithms by solving problems from [Striver's A2Z DSA Course/Sheet](https://takeuforward.org/strivers-a2z-dsa-course-sheet-2/), tracked here with daily commits.
+A running log of LeetCode problems I've solved — code, approach, and complexity — updated as I go.
 
-## 📌 Progress Tracker
-
-| Topic              | Status         | Problems Solved | Folder |
-|---------------------|---------------|:---:|--------|
-| Basic Recursion     | 🟡 In Progress | 1 | [`basic_recursion/`](./basic_recursion) |
-| Arrays              | ⬜ Not Started | 0 | `arrays/` |
-| Strings             | ⬜ Not Started | 0 | `strings/` |
-| Linked List         | ⬜ Not Started | 0 | `linked_list/` |
-| Stacks & Queues     | ⬜ Not Started | 0 | `stacks_queues/` |
-| Binary Search       | ⬜ Not Started | 0 | `binary_search/` |
-| Sorting             | ⬜ Not Started | 0 | `sorting/` |
-| Trees               | ⬜ Not Started | 0 | `trees/` |
-| Graphs              | ⬜ Not Started | 0 | `graphs/` |
-| Dynamic Programming | ⬜ Not Started | 0 | `dynamic_programming/` |
-
-*(Update status as you go: ⬜ Not Started → 🟡 In Progress → ✅ Done)*
-
-## ✅ Problems Solved
-
-| # | Problem | Topic | File |
-|---|---------|-------|------|
-| 1 | Print name N times | Basic Recursion | [`print_name_n_times.py`](./basic_recursion/print_name_n_times.py) |
-
-*(Add a new row here every time you solve a problem — keeps the log easy to scan.)*
-
-## 📂 Structure
-
-Each topic has its own folder. Every solved problem is its own file, named after the problem, with a short header comment describing the problem and its source.
-
-```
-dsaPY/
-├── basic_recursion/
-│   └── print_name_n_times.py
-├── arrays/
-├── strings/
-└── README.md
-```
-
-## 📝 File format
-
-Each solution file follows this pattern:
-
-```python
-# Problem: <short problem description>
-# Source: Striver's DSA Sheet
-
-def solution(...):
-    ...
-
-if __name__ == "__main__":
-    ...
-```
-
-## ✅ Commit convention
-
-Commits follow the pattern: `Solve: <Problem Name>`
-
-Example: `Solve: Print name N times`
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-1-brightgreen)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-Aug%202026-blue)
 
 ---
-*Started: July 2026*
+
+## 📌 About
+
+This repo tracks my LeetCode practice. Every problem I solve gets its own folder with the solution and a short note on approach and complexity. Consistency over speed — showing up regularly, one problem at a time.
+
+## 📊 Problems Solved
+
+| # | Problem | Topic | Difficulty | Language | Solution |
+|---|---------|-------|------------|----------|----------|
+| 1 | Reverse an Array (Recursion) | Recursion | Easy | Python | [Link](./basic_recursion/) |
+
+*(New rows added as problems are solved — see commit history for the daily log.)*
+
+## 🗂️ Structure
+
+Organized by topic:
+
+```
+leetcode-solutions/
+├── recursion/
+│   └── solution.py
+├── arrays/
+├── linked_list/
+├── binary_search/
+├── dp/
+...
+```
+
+Each folder contains the solution file, and where useful, a short note on the approach and time/space complexity.
+
+## 🔗 Links
+
+- [LeetCode Profile](https://leetcode.com/)
+
